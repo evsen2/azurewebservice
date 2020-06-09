@@ -7,7 +7,7 @@ app.use(bodyParser.json())
  
 app.get('/api/hello', (req, res) => {
  
- res.send('Hello App Service')
+ res.send('Hello Azure')
 });
  
 app.post('/api/name', (req, res) => {
